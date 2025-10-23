@@ -11,6 +11,7 @@ class Tfgql < Formula
 
       def install
         bin.install "tfgql-darwin-arm64" => "tfgql"
+        system "codesign", "--force", "--sign", "-", bin/"tfgql"
       end
     end
 
@@ -20,6 +21,7 @@ class Tfgql < Formula
 
       def install
         bin.install "tfgql-darwin-x64" => "tfgql"
+        system "codesign", "--force", "--sign", "-", bin/"tfgql"
       end
     end
   end
