@@ -1,7 +1,7 @@
 class Tfgql < Formula
   desc "GraphQL facade for Terraform Cloud / Enterprise"
   homepage "https://github.com/jeremymefford/tfgql"
-  version "0.5.3"
+  version "0.5.3.1"
   license "MIT"
 
   on_macos do
