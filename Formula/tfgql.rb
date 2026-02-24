@@ -1,13 +1,13 @@
 class Tfgql < Formula
   desc "GraphQL facade for Terraform Cloud / Enterprise"
   homepage "https://github.com/jeremymefford/tfgql"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/jeremymefford/tfgql/releases/download/v0.6.1/tfgql-darwin-arm64.tar.gz"
-      sha256 "76fd990c9a4a8da1967a6b9b12b5de5d8885187b785208a0b91b1963db8d9c81"
+      url "https://github.com/jeremymefford/tfgql/releases/download/v0.6.2/tfgql-darwin-arm64.tar.gz"
+      sha256 "54cccbe73a91aca09cb832b7c25a392f1d529e22b3d194fe735fb4440541a60d"
 
       def install
         bin.install "tfgql-darwin-arm64" => "tfgql"
@@ -15,8 +15,8 @@ class Tfgql < Formula
     end
 
     on_intel do
-      url "https://github.com/jeremymefford/tfgql/releases/download/v0.6.1/tfgql-darwin-x64.tar.gz"
-      sha256 "d347bf4c2f6ca8d0320483fb1084de8ce80dca7fd3030d7931675feb211fb635"
+      url "https://github.com/jeremymefford/tfgql/releases/download/v0.6.2/tfgql-darwin-x64.tar.gz"
+      sha256 "067f6257cb914bb40c9b2057ff2ab3b732f1db7c1f4d237773417efa86f37219"
 
       def install
         bin.install "tfgql-darwin-x64" => "tfgql"
